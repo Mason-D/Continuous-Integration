@@ -37,7 +37,7 @@ pipeline{
 
         stage('Approval') {
             steps {
-                sleep 10
+                echo "Awaiting approval..."
             }
         }
 
